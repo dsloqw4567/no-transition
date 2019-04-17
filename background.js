@@ -4,7 +4,8 @@ const CSS = `
 body *, body *::before, body *::after {
   /*CSS transition*/
   transition: 0ms !important;
-  transition: transform 0ms !important;
+  transition-timing-function: stepEnd !important;
+  transition: transform 0ms stepEnd !important;
   transition: overflow-anchor 0ms !importet;
   transition-delay: 0ms !important;
   /*CSS animations*/
