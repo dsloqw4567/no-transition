@@ -1,7 +1,7 @@
 'use strict';
 
 const CSS = `
-body *, body *::before, body *::after {
+body, body *, body *::before, body *::after {
   /*CSS transition*/
   transition: 0ms !important;
   transition-timing-function: stepEnd !important;
